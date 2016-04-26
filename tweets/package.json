@@ -1,0 +1,18 @@
+{
+  "name": "iasc-reactive-nodejs-tweets",
+  "version": "1.0.0",
+  "dependencies": {
+    "rx-node": "~1.0.2",
+    "rx": "~4.0.1",
+    "bluebird": "~3.3.5",
+    "lodash": "4.6.1",
+    "chance": "1.0.1"
+  },
+  "devDependencies": {
+    "mocha": "~2.4.5"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha spec"
+  },
+  "author": "IASC"
+}

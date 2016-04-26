@@ -1,0 +1,16 @@
+{
+  "name": "iasc-reactive-nodejs-examples",
+  "version": "1.0.0",
+  "dependencies": {
+    "rx-node": "~1.0.2",
+    "rx": "~4.0.1",
+    "bluebird": "~3.3.5"
+  },
+  "devDependencies": {
+    "mocha": "~2.4.5"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha spec"
+  },
+  "author": "IASC"
+}
